@@ -13,9 +13,20 @@ function App() {
        </p>
        <form>
  <label>
-   Nombre : <input type="text" name="name" />
+   Nombre y Apellido: <input type="text" name="name" />
  </label>
- <input type="Submit" value="Submit" />
+ 
+ <label>
+   Correo: <input type="text" name="name" />
+ </label>
+ <label>
+
+  Edad: <input type="text" name="name" />
+ </label>
+
+ <label>
+   Telefono: <input type="text" name="name" />
+ </label>
  </form>
         <a
          className="App-link"
