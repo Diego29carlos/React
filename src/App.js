@@ -2,14 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
  
- 
 function App() {
  return (
    <div className="App">
      <header className="App-header">
        <img src={logo} className="App-logo" alt="logo" />
        <p>
-         <h1>J.Diego Carlos</h1>
+         <h1>J.Diego C.Carlos</h1>
        </p>
        <form>
  <label>
@@ -25,26 +24,13 @@ function App() {
  </label>
 
  <label>
-   Telefono: <input type="text" name="name" />
+   Telefono: <input type="text" name="name"/>
+
  </label>
  </form>
-        <a
-         className="App-link"
-         href="https://app.slack.com/client/TPFSKAG8K/CSKP8MY65"
-         target="_blank"
-         rel="noopener noreferrer"
-       >
-      <select>
- 
-      <option value="grapefruit">Slack</option>
-      <option value="lime">Usuario</option>
-      <option selected value="coconut">Contacto</option>
-      <option value="mango">Email</option>
- 
-      </select>
-         </a>
+ <input type="Submit" value="Submit" />
      </header>
-    
+     
    </div>
  );
 }
@@ -79,10 +65,7 @@ class NameForm extends React.Component {
     );
   }
  }
-  
-  
-  
-  
- export default App;
+
+export default App;
   
  
