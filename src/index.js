@@ -10,3 +10,12 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+  
+// function home() {
+  //   return (
+    //     <div className="main-container">
+        // <imagenes />
+      //   </div>
+   //  );
+ // }
+   //  export  default home;

@@ -13,15 +13,16 @@
   }
 }
 
-.App-header {
-  background-color:green; 
+.App {
+  background-color:black; 
   min-height: 100vh;
   display: column-reverse;
   flex-direction: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
+  font-size: calc(13px + 2vmin);
+  color: orange;
+  border-color: brown;
 }
 
 .App-link {
@@ -36,3 +37,4 @@
     transform: rotate(500deg);
   }
 }
+
